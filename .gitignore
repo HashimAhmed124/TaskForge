@@ -1,0 +1,31 @@
+# .NET
+bin/
+obj/
+*.user
+appsettings.Development.json
+appsettings.Production.json
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+.pnp
+.pnp.js
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.pfx
+
+# Editors / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
